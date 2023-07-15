@@ -5,38 +5,38 @@ body {
 .page {
   max-width:1600px;
   margin:auto;
-  padding:50px;
+  padding:20px;
 }
 
 .ben-ludwig {
   max-width:1400px;
   margin:auto;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .intro {
   max-width:1400px;
   margin:auto;
-  font-size: 48px;
+  font-size: 28px;
   text-align: center;
-  padding-top:150px;
+  padding-top:75px;
 }
 
 .experience {
   max-width:1400px;
   margin:auto;
-  font-size: 48px;
+  font-size: 28px;
   text-align: center;
-  padding-top:40px;
+  padding-top:20px;
 }
 
 .design {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap:50px;
-  padding-top:150px;
+  gap:10px;
+  padding-top:40px;
 }
 
 img {
@@ -49,7 +49,7 @@ img {
 }
 
 .design-square img {
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .design-square-text {
@@ -57,7 +57,70 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 28px;
   text-align: center;
   color: #fff;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+
+  .ben-ludwig {
+    font-size: 16px;
+    padding-top: 100px;
+  }
+
+  .intro {
+    max-width:1400px;
+    margin:auto;
+    font-size: 48px;
+    text-align: center;
+    padding-top:150px;
+  }
+
+  .experience {
+    max-width:1400px;
+    margin:auto;
+    font-size: 48px;
+    text-align: center;
+    padding-top:40px;
+  }
+
+  .design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+    padding-top:150px;
+  }
+
+  img {
+    width:100%;
+    height:auto;
+  }
+
+  .design-square {
+    position: relative;
+  }
+
+  .design-square img {
+    border-radius: 20px;
+  }
+
+  .design-square-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+  }
+
+
 }
